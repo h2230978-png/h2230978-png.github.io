@@ -115,7 +115,8 @@ h2 { font-size: 30px; margin: 0 0 8px; color: var(--navy); }
   background: var(--card);
 }
 .price { font-size: 46px; font-weight: 800; color: var(--navy); margin: 6px 0 0; }
-.price-sub { color: var(--grey); margin: 0 0 18px; }
+.price-sub { color: var(--grey); margin: 0 0 10px; }
+.price-emi { display: inline-block; margin: 0 0 18px; padding: 6px 14px; border-radius: 999px; background: #e8f0fd; color: var(--navy); font-size: 15px; }
 .ticks { list-style: none; padding: 0; margin: 0 0 22px; text-align: left; }
 .ticks li { padding: 6px 0 6px 30px; position: relative; }
 .ticks li::before {
